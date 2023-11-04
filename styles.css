@@ -65,3 +65,35 @@
     padding-bottom: 50px;
     flex: 1;
 }
+/* start of second section(white/images)*/
+.white-header-container {
+    display: flex;
+    justify-content: center;
+}
+
+.white-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.pics-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.pics {
+flex-basis:0;
+}
+
+.section-pic {
+    height: 140px;
+    width: 120px;
+    border-radius: 10px;
+    border:#3882F6 solid 3px;
+}
+
+/*quote section(gray)*/
