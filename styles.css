@@ -87,6 +87,7 @@
 
 .pics {
 flex-basis:0;
+margin-bottom: 50px;;
 }
 
 .section-pic {
@@ -97,3 +98,26 @@ flex-basis:0;
 }
 
 /*quote section(gray)*/
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.quote {
+    font-size: 32px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 80px 260px;
+}
+
+.author-container {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+.author {
+    font-weight: bold;
+    font-size: 20px;
+}
